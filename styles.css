@@ -13,12 +13,12 @@ body {
   }
   
   header h1 {
-    margin: 0; /* Remove as margens do título no cabeçalho */
+    margin: 4; /* Remove as margens do título no cabeçalho */
   }
   
   nav ul {
     list-style-type: none; /* Remove os marcadores de lista */
-    margin: 0; /* Remove as margens das listas */
+    margin: 4; /* Remove as margens das listas */
     padding: 0; /* Remove o preenchimento das listas */
   }
   
@@ -55,7 +55,7 @@ body {
   }
   
   .membro-equipe img {
-    border-radius: 50%; /* Torna as imagens dos membros da equipe circular */
+    border-radius: 40%; /* Torna as imagens dos membros da equipe circular */
     width: 150px; /* Define a largura da imagem */
     height: 150px; /* Define a altura da imagem */
     margin-bottom: 10px; /* Adiciona margem inferior */
