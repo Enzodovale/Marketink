@@ -1,7 +1,7 @@
 /* Estilos gerais */
 body {
     font-family: Open Sans, Open sans Hebrew; /* Define a família de fontes para o corpo do documento */
-    margin: 10; /* Remove as margens padrão do corpo do documento */
+    margin: 30; /* Remove as margens padrão do corpo do documento */
     padding: 0; /* Remove o preenchimento padrão do corpo do documento */
     background-color: #f4f4f4; /* Define a cor de fundo do corpo do documento */
   }
@@ -13,12 +13,12 @@ body {
   }
   
   header h1 {
-    margin: 4; /* Remove as margens do título no cabeçalho */
+    margin: 20; /* Remove as margens do título no cabeçalho */
   }
   
   nav ul {
     list-style-type: none; /* Remove os marcadores de lista */
-    margin: 10; /* Remove as margens das listas */
+    margin: 20; /* Remove as margens das listas */
     padding: 0; /* Remove o preenchimento das listas */
   }
   
@@ -28,19 +28,19 @@ body {
   }
   
   nav ul li a {
-    color: ##EB6400; /* Define a cor do texto dos links */
+    color: #82055F; /* Define a cor do texto dos links */
     text-decoration: none; /* Remove o sublinhado padrão dos links */
   }
   
   /* Estilos específicos */
   .produto-imagem {
     text-align: center; /* Alinha o conteúdo centralmente */
-    margin-bottom: 20px; /* Adiciona margem inferior */
+    margin-bottom: 30px; /* Adiciona margem inferior */
   }
   
   .produto-imagem img {
-    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
-    height: 300px; /* Mantém a proporção da imagem */
+    max-width: 10%; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
+    height: 30px; /* Mantém a proporção da imagem */
     border-radius: 30px; /* Adiciona bordas arredondadas à imagem */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona sombra à imagem */
   }
