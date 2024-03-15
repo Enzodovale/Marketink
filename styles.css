@@ -39,9 +39,9 @@ body {
   }
   
   .produto-imagem img {
-    max-width: 10%; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
-    height: 30px; /* Mantém a proporção da imagem */
-    border-radius: 30px; /* Adiciona bordas arredondadas à imagem */
+    max-width: 100px; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 15px; /* Adiciona bordas arredondadas à imagem */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona sombra à imagem */
   }
   
