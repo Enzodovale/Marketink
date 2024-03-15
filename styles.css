@@ -29,7 +29,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #000; /* Define a cor do texto dos links */
+  color: #ffffff; /* Define a cor do texto dos links */
   text-decoration: none; /* Remove o sublinhado padrão dos links */
 }
 
@@ -40,7 +40,7 @@ nav ul li a {
 }
 
 .Nossos-Serviços img {
-  max-width: 0px; /* Diminui o tamanho da imagem do produto */
+  max-width: 150px; /* Diminui o tamanho da imagem do produto */
   height: auto; /* Mantém a proporção da imagem */
   margin: 10px; /* Adiciona espaçamento entre as imagens */
   display: inline-block; /* Permite que as imagens sejam centralizadas */
@@ -52,9 +52,9 @@ nav ul li a {
 }
 
 .membro-equipe img {
-  border-radius: 20%; /* Torna as imagens dos membros da equipe circulares */
-  width: 300px; /* Aumenta o tamanho da imagem */
-  height: 300px; /* Aumenta o tamanho da imagem */
+  border-radius: 50%; /* Torna as imagens dos membros da equipe circulares */
+  width: 200px; /* Aumenta o tamanho da imagem */
+  height: 200px; /* Aumenta o tamanho da imagem */
   margin-bottom: 10px; /* Adiciona margem inferior */
   display: inline-block; /* Permite que as imagens sejam centralizadas */
 }
@@ -78,7 +78,7 @@ form input {
   width: 100%; /* Define a largura total para os campos de entrada */
   margin-bottom: 10px; /* Adiciona margem inferior para os campos de entrada */
   padding: 10px; /* Adiciona preenchimento interno para os campos de entrada */
-  border: 1px solid #000; /* Adiciona uma borda sólida aos campos de entrada */
+  border: 1px solid #ccc; /* Adiciona uma borda sólida aos campos de entrada */
   border-radius: 5px; /* Adiciona bordas arredondadas aos campos de entrada */
 }
 
@@ -97,44 +97,21 @@ form button:hover {
 
 /* Estilos para o botão do Instagram da empresa */
 #instagram {
-  margin-bottom: 2cm; /* Adiciona espaçamento abaixo do botão do Instagram */
+  margin-bottom: 20px; /* Adiciona espaçamento abaixo do botão do Instagram */
 }
 
-#contato {
-  text-align: center; /* Alinha o conteúdo centralmente */
-}
-
-#contato form {
-  max-width: 400px; /* Define a largura máxima do formulário */
-  margin: 0 auto; /* Centraliza o formulário horizontalmente */
-  background-color: #fff; /* Define a cor de fundo do formulário */
-  padding: 20px; /* Adiciona preenchimento interno ao formulário */
-  border-radius: 10px; /* Adiciona bordas arredondadas ao formulário */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona sombra ao formulário */
-}
-
-#contato form label {
-  display: block; /* Exibe as etiquetas de forma bloqueada */
-  margin-bottom: 5px; /* Adiciona margem inferior para as etiquetas */
-}
-
-#contato form input {
-  width: 100%; /* Define a largura total para os campos de entrada */
-  margin-bottom: 10px; /* Adiciona margem inferior para os campos de entrada */
-  padding: 10px; /* Adiciona preenchimento interno para os campos de entrada */
-  border: 1px solid #ccc; /* Adiciona uma borda sólida aos campos de entrada */
-  border-radius: 5px; /* Adiciona bordas arredondadas aos campos de entrada */
-}
-
-#contato form button {
-  background-color: #333; /* Define a cor de fundo do botão */
-  color: #fff; /* Define a cor do texto do botão */
+#instagram button {
+  background-color: #FF69B4; /* Cor rosa */
+  color: #fff; /* Cor do texto do botão */
   border: none; /* Remove a borda do botão */
   padding: 10px 20px; /* Adiciona preenchimento interno ao botão */
   cursor: pointer; /* Altera o cursor para uma mão ao passar sobre o botão */
   border-radius: 5px; /* Adiciona bordas arredondadas ao botão */
+  text-decoration: none; /* Remove o sublinhado do botão */
+  display: inline-block; /* Permite que o botão se ajuste ao tamanho do texto */
+  transition: background-color 0.3s ease; /* Transição suave de cor ao passar o mouse */
 }
 
-#contato form button:hover {
-  background-color: #555; /* Altera a cor de fundo do botão ao passar o mouse sobre ele */
+#instagram button:hover {
+  background-color: #FF1493; /* Cor rosa mais escura ao passar o mouse sobre o botão */
 }
