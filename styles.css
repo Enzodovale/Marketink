@@ -1,13 +1,13 @@
 /* Estilos gerais */
 body {
-    font-family: Arial, sans-serif; /* Define a família de fontes para o corpo do documento */
-    margin: 0; /* Remove as margens padrão do corpo do documento */
+    font-family: Open Sans, Open sans Hebrew; /* Define a família de fontes para o corpo do documento */
+    margin: 4; /* Remove as margens padrão do corpo do documento */
     padding: 0; /* Remove o preenchimento padrão do corpo do documento */
-    background-color: #f4f4f4; /* Define a cor de fundo do corpo do documento */
+    background-color: #000000; /* Define a cor de fundo do corpo do documento */
   }
   
   header {
-    background-color: #333; /* Define a cor de fundo do cabeçalho */
+    background-color: #000000; /* Define a cor de fundo do cabeçalho */
     color: #fff; /* Define a cor do texto no cabeçalho */
     padding: 20px; /* Adiciona preenchimento interno ao cabeçalho */
   }
@@ -28,7 +28,7 @@ body {
   }
   
   nav ul li a {
-    color: #fff; /* Define a cor do texto dos links */
+    color: ##EB6400; /* Define a cor do texto dos links */
     text-decoration: none; /* Remove o sublinhado padrão dos links */
   }
   
