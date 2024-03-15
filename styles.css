@@ -1,9 +1,10 @@
 /* Estilos gerais */
 body {
     font-family: Open Sans, Open sans Hebrew; /* Define a família de fontes para o corpo do documento */
-    margin: 30; /* Remove as margens padrão do corpo do documento */
+    margin: 0; /* Remove as margens padrão do corpo do documento */
     padding: 0; /* Remove o preenchimento padrão do corpo do documento */
-    background-color: #f4f4f4; /* Define a cor de fundo do corpo do documento */
+    background-color: #ffffff; /* Define a cor de fundo do corpo do documento */
+    text-align: center; /* Centraliza todo o conteúdo */
   }
   
   header {
@@ -13,12 +14,12 @@ body {
   }
   
   header h1 {
-    margin: 20; /* Remove as margens do título no cabeçalho */
+    margin: 0; /* Remove as margens do título no cabeçalho */
   }
   
   nav ul {
     list-style-type: none; /* Remove os marcadores de lista */
-    margin: 20; /* Remove as margens das listas */
+    margin: 0; /* Remove as margens das listas */
     padding: 0; /* Remove o preenchimento das listas */
   }
   
@@ -28,7 +29,7 @@ body {
   }
   
   nav ul li a {
-    color: #82055F; /* Define a cor do texto dos links */
+    color: #FFA500; /* Define a cor do texto dos links */
     text-decoration: none; /* Remove o sublinhado padrão dos links */
   }
   
@@ -39,14 +40,14 @@ body {
   }
   
   .produto-imagem img {
-    max-width: 50px; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
+    max-width: 100px; /* Diminui o tamanho da imagem do produto */
     height: auto; /* Mantém a proporção da imagem */
-    border-radius: 15px; /* Adiciona bordas arredondadas à imagem */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona sombra à imagem */
+    margin: 10px; /* Adiciona espaçamento entre as imagens */
+    display: inline-block; /* Permite que as imagens sejam centralizadas */
   }
   
-  #produto p {
-    margin-bottom: 20px; /* Adiciona margem inferior para os parágrafos dentro da seção de Produto */
+  #Nossos_Serviços {
+    margin-bottom: 50px; /* Adiciona margem inferior para separar das outras seções */
   }
   
   .membro-equipe {
@@ -55,11 +56,11 @@ body {
   }
   
   .membro-equipe img {
-    border-radius: 0%; /* Torna as imagens dos membros da equipe circular */
-    width: 150px; /* Define a largura da imagem */
-    height: 150px; /* Define a altura da imagem */
+    border-radius: 50%; /* Torna as imagens dos membros da equipe circulares */
+    width: 200px; /* Aumenta o tamanho da imagem */
+    height: 200px; /* Aumenta o tamanho da imagem */
     margin-bottom: 10px; /* Adiciona margem inferior */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona sombra à imagem */
+    display: inline-block; /* Permite que as imagens sejam centralizadas */
   }
   
   /* Estilos para o formulário */
@@ -81,7 +82,7 @@ body {
     width: 100%; /* Define a largura total para os campos de entrada */
     margin-bottom: 10px; /* Adiciona margem inferior para os campos de entrada */
     padding: 10px; /* Adiciona preenchimento interno para os campos de entrada */
-    border: 1px solid #ccc; /* Adiciona uma borda sólida aos campos de entrada */
+    border: 1px solid #000; /* Adiciona uma borda sólida aos campos de entrada */
     border-radius: 5px; /* Adiciona bordas arredondadas aos campos de entrada */
   }
   
@@ -100,7 +101,7 @@ body {
   
   /* Estilos para o botão do Instagram da empresa */
   #instagram button {
-    background-color: #e4405f; /* Cor do Instagram */
+    background-color: #FF69B4; /* Cor rosa */
     color: #fff; /* Cor do texto do botão */
     border: none; /* Remove a borda do botão */
     padding: 10px 20px; /* Adiciona preenchimento interno ao botão */
@@ -112,6 +113,5 @@ body {
   }
   
   #instagram button:hover {
-    background-color: #ca2c47; /* Cor do Instagram ao passar o mouse sobre o botão */
+    background-color: #FF1493; /* Cor rosa mais escura ao passar o mouse sobre o botão */
   }
-  
