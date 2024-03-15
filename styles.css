@@ -1,117 +1,113 @@
 /* Estilos gerais */
 body {
-    font-family: Open Sans, Open sans Hebrew; /* Define a família de fontes para o corpo do documento */
-    margin: 0; /* Remove as margens padrão do corpo do documento */
-    padding: 0; /* Remove o preenchimento padrão do corpo do documento */
-    background-color: #ffffff; /* Define a cor de fundo do corpo do documento */
-    text-align: center; /* Centraliza todo o conteúdo */
-  }
-  
-  header {
-    background-color: #333; /* Define a cor de fundo do cabeçalho */
-    color: #fff; /* Define a cor do texto no cabeçalho */
-    padding: 20px; /* Adiciona preenchimento interno ao cabeçalho */
-  }
-  
-  header h1 {
-    margin: 0; /* Remove as margens do título no cabeçalho */
-  }
-  
-  nav ul {
-    list-style-type: none; /* Remove os marcadores de lista */
-    margin: 0; /* Remove as margens das listas */
-    padding: 0; /* Remove o preenchimento das listas */
-  }
-  
-  nav ul li {
-    display: inline; /* Exibe os itens da lista horizontalmente */
-    margin-right: 20px; /* Adiciona margem direita entre os itens da lista */
-  }
-  
-  nav ul li a {
-    color: #FFA500; /* Define a cor do texto dos links */
-    text-decoration: none; /* Remove o sublinhado padrão dos links */
-  }
-  
-  /* Estilos específicos */
-  .produto-imagem {
-    text-align: center; /* Alinha o conteúdo centralmente */
-    margin-bottom: 30px; /* Adiciona margem inferior */
-  }
-  
-  .produto-imagem img {
-    max-width: 100px; /* Diminui o tamanho da imagem do produto */
-    height: auto; /* Mantém a proporção da imagem */
-    margin: 10px; /* Adiciona espaçamento entre as imagens */
-    display: inline-block; /* Permite que as imagens sejam centralizadas */
-  }
-  
-  #Nossos_Serviços {
-    margin-bottom: 50px; /* Adiciona margem inferior para separar das outras seções */
-  }
-  
-  .membro-equipe {
-    text-align: center; /* Alinha o conteúdo centralmente */
-    margin-bottom: 30px; /* Adiciona margem inferior */
-  }
-  
-  .membro-equipe img {
-    border-radius: 50%; /* Torna as imagens dos membros da equipe circulares */
-    width: 200px; /* Aumenta o tamanho da imagem */
-    height: 200px; /* Aumenta o tamanho da imagem */
-    margin-bottom: 10px; /* Adiciona margem inferior */
-    display: inline-block; /* Permite que as imagens sejam centralizadas */
-  }
-  
-  /* Estilos para o formulário */
-  form {
-    max-width: 400px; /* Define a largura máxima do formulário */
-    margin: 0 auto; /* Centraliza o formulário horizontalmente */
-    background-color: #fff; /* Define a cor de fundo do formulário */
-    padding: 20px; /* Adiciona preenchimento interno ao formulário */
-    border-radius: 10px; /* Adiciona bordas arredondadas ao formulário */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona sombra ao formulário */
-  }
-  
-  form label {
-    display: block; /* Exibe as etiquetas de forma bloqueada */
-    margin-bottom: 5px; /* Adiciona margem inferior para as etiquetas */
-  }
-  
-  form input {
-    width: 100%; /* Define a largura total para os campos de entrada */
-    margin-bottom: 10px; /* Adiciona margem inferior para os campos de entrada */
-    padding: 10px; /* Adiciona preenchimento interno para os campos de entrada */
-    border: 1px solid #000; /* Adiciona uma borda sólida aos campos de entrada */
-    border-radius: 5px; /* Adiciona bordas arredondadas aos campos de entrada */
-  }
-  
-  form button {
-    background-color: #333; /* Define a cor de fundo do botão */
-    color: #fff; /* Define a cor do texto do botão */
-    border: none; /* Remove a borda do botão */
-    padding: 10px 20px; /* Adiciona preenchimento interno ao botão */
-    cursor: pointer; /* Altera o cursor para uma mão ao passar sobre o botão */
-    border-radius: 5px; /* Adiciona bordas arredondadas ao botão */
-  }
-  
-  form button:hover {
-    background-color: #555; /* Altera a cor de fundo do botão ao passar o mouse sobre ele */
-  }
-  
-  /* Estilos para o botão do Instagram da empresa */
-  #instagram button {
-    background-color: #FF69B4; /* Cor rosa */
-    color: #fff; /* Cor do texto do botão */
-    border: none; /* Remove a borda do botão */
-    padding: 10px 20px; /* Adiciona preenchimento interno ao botão */
-    cursor: pointer; /* Altera o cursor para uma mão ao passar sobre o botão */
-    border-radius: 5px; /* Adiciona bordas arredondadas ao botão */
-    text-decoration: none; /* Remove o sublinhado do botão */
-    display: inline-block; /* Permite que o botão se ajuste ao tamanho do texto */
-    transition: background-color 0.3s ease; /* Transição suave de cor ao passar o mouse */
-  }
-  
-  #instagram button:hover {
-    background-color: #FF1493; /* Cor rosa mais escura ao passar o mouse sobre o botão */
-  }
+  font-family: Open Sans, sans-serif; /* Define a família de fontes para o corpo do documento */
+  margin: 0; /* Remove as margens padrão do corpo do documento */
+  padding: 0; /* Remove o preenchimento padrão do corpo do documento */
+  background-color: #ffffff; /* Define a cor de fundo do corpo do documento */
+  text-align: center; /* Centraliza todo o conteúdo */
+}
+
+header {
+  background-color: #333; /* Define a cor de fundo do cabeçalho */
+  color: #fff; /* Define a cor do texto no cabeçalho */
+  padding: 20px; /* Adiciona preenchimento interno ao cabeçalho */
+}
+
+header h1 {
+  margin: 0; /* Remove as margens do título no cabeçalho */
+}
+
+nav ul {
+  list-style-type: none; /* Remove os marcadores de lista */
+  margin: 0; /* Remove as margens das listas */
+  padding: 0; /* Remove o preenchimento das listas */
+}
+
+nav ul li {
+  display: inline; /* Exibe os itens da lista horizontalmente */
+  margin-right: 20px; /* Adiciona margem direita entre os itens da lista */
+}
+
+nav ul li a {
+  color: #000; /* Define a cor do texto dos links */
+  text-decoration: none; /* Remove o sublinhado padrão dos links */
+}
+
+/* Estilos específicos */
+.Nossos-Serviços {
+  text-align: center; /* Alinha o conteúdo centralmente */
+  margin-bottom: 30px; /* Adiciona margem inferior */
+}
+
+.Nossos-Serviços img {
+  max-width: 100px; /* Diminui o tamanho da imagem do produto */
+  height: auto; /* Mantém a proporção da imagem */
+  margin: 10px; /* Adiciona espaçamento entre as imagens */
+  display: inline-block; /* Permite que as imagens sejam centralizadas */
+}
+
+.membro-equipe {
+  text-align: center; /* Alinha o conteúdo centralmente */
+  margin-bottom: 30px; /* Adiciona margem inferior */
+}
+
+.membro-equipe img {
+  border-radius: 50%; /* Torna as imagens dos membros da equipe circulares */
+  width: 200px; /* Aumenta o tamanho da imagem */
+  height: 200px; /* Aumenta o tamanho da imagem */
+  margin-bottom: 10px; /* Adiciona margem inferior */
+  display: inline-block; /* Permite que as imagens sejam centralizadas */
+}
+
+/* Estilos para o formulário */
+form {
+  max-width: 400px; /* Define a largura máxima do formulário */
+  margin: 0 auto; /* Centraliza o formulário horizontalmente */
+  background-color: #fff; /* Define a cor de fundo do formulário */
+  padding: 20px; /* Adiciona preenchimento interno ao formulário */
+  border-radius: 10px; /* Adiciona bordas arredondadas ao formulário */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona sombra ao formulário */
+}
+
+form label {
+  display: block; /* Exibe as etiquetas de forma bloqueada */
+  margin-bottom: 5px; /* Adiciona margem inferior para as etiquetas */
+}
+
+form input {
+  width: 100%; /* Define a largura total para os campos de entrada */
+  margin-bottom: 10px; /* Adiciona margem inferior para os campos de entrada */
+  padding: 10px; /* Adiciona preenchimento interno para os campos de entrada */
+  border: 1px solid #000; /* Adiciona uma borda sólida aos campos de entrada */
+  border-radius: 5px; /* Adiciona bordas arredondadas aos campos de entrada */
+}
+
+form button {
+  background-color: #333; /* Define a cor de fundo do botão */
+  color: #fff; /* Define a cor do texto do botão */
+  border: none; /* Remove a borda do botão */
+  padding: 10px 20px; /* Adiciona preenchimento interno ao botão */
+  cursor: pointer; /* Altera o cursor para uma mão ao passar sobre o botão */
+  border-radius: 5px; /* Adiciona bordas arredondadas ao botão */
+}
+
+form button:hover {
+  background-color: #555; /* Altera a cor de fundo do botão ao passar o mouse sobre ele */
+}
+
+/* Estilos para o botão do Instagram da empresa */
+#instagram button {
+  background-color: #FF69B4; /* Cor rosa */
+  color: #fff; /* Cor do texto do botão */
+  border: none; /* Remove a borda do botão */
+  padding: 10px 20px; /* Adiciona preenchimento interno ao botão */
+  cursor: pointer; /* Altera o cursor para uma mão ao passar sobre o botão */
+  border-radius: 5px; /* Adiciona bordas arredondadas ao botão */
+  text-decoration: none; /* Remove o sublinhado do botão */
+  display: inline-block; /* Permite que o botão se ajuste ao tamanho do texto */
+  transition: background-color 0.3s ease; /* Transição suave de cor ao passar o mouse */
+}
+
+#instagram button:hover {
+  background-color: #FF1493; /* Cor rosa mais escura ao passar o mouse sobre o botão */
+}
