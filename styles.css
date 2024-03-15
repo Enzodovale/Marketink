@@ -3,7 +3,7 @@ body {
     font-family: Open Sans, Open sans Hebrew; /* Define a família de fontes para o corpo do documento */
     margin: 10; /* Remove as margens padrão do corpo do documento */
     padding: 0; /* Remove o preenchimento padrão do corpo do documento */
-    background-color: #EB6400; /* Define a cor de fundo do corpo do documento */
+    background-color: #ffff; /* Define a cor de fundo do corpo do documento */
   }
   
   header {
