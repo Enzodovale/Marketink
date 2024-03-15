@@ -55,7 +55,7 @@ body {
   }
   
   .membro-equipe img {
-    border-radius: 40%; /* Torna as imagens dos membros da equipe circular */
+    border-radius: 20%; /* Torna as imagens dos membros da equipe circular */
     width: 150px; /* Define a largura da imagem */
     height: 150px; /* Define a altura da imagem */
     margin-bottom: 10px; /* Adiciona margem inferior */
