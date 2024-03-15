@@ -52,7 +52,7 @@ nav ul li a {
 }
 
 .membro-equipe img {
-  border-radius: 20%; /* Torna as imagens dos membros da equipe circulares */
+  border-radius: 10%; /* Torna as imagens dos membros da equipe circulares */
   width: 300px; /* Aumenta o tamanho da imagem */
   height: 300px; /* Aumenta o tamanho da imagem */
   margin-bottom: 10px; /* Adiciona margem inferior */
