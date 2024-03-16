@@ -38,6 +38,7 @@ nav ul li a {
   text-align: justify; /* Alinha o texto justificado */
   margin: 20px 3cm; /* Adiciona recuo de 3cm */
   padding: 20px; /* Adiciona preenchimento interno */
+  box-sizing: border-box; /* Garante que a largura do elemento inclua o padding e a borda */
 }
 
 .Nossos-Serviços p, .equipe p {
