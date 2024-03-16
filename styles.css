@@ -40,8 +40,8 @@ nav ul li a {
 }
 
 .Nossos-Serviços img {
-  max-width: 50px; /* Diminui o tamanho da imagem do produto */
-  height: min; /* Mantém a proporção da imagem */
+  max-width: 100px; /* Diminui o tamanho da imagem do produto */
+  height: auto; /* Mantém a proporção da imagem */
   margin: 10px; /* Adiciona espaçamento entre as imagens */
   display: inline-block; /* Permite que as imagens sejam centralizadas */
 }
