@@ -36,7 +36,7 @@ nav ul li a {
 /* Estilos específicos */
 .Nossos-Serviços, .equipe {
   text-align: justify; /* Alinha o texto justificado */
-  margin: 0 3cm; /* Adiciona recuo de 3cm */
+  margin: 20px 3cm; /* Adiciona recuo de 3cm */
   padding: 20px; /* Adiciona preenchimento interno */
 }
 
