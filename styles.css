@@ -34,9 +34,10 @@ nav ul li a {
 }
 
 /* Estilos específicos */
-.Nossos-Serviços {
+.Nossos-Serviços, .equipe {
   text-align: center; /* Alinha o conteúdo centralmente */
-  margin-bottom: 30px; /* Adiciona margem inferior */
+  margin: 0 3cm; /* Adiciona recuo de 3cm */
+  padding: 20px; /* Adiciona preenchimento interno */
 }
 
 .Nossos-Serviços img {
